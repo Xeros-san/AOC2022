@@ -54,15 +54,21 @@ public class FileSearcher {
         }
 
         public String print() {
-            return this.print("");
+            StringBuilder sb = new StringBuilder();
+            sb.append("dir ").append(this.name).append(" size: ").append(this.getSize()).append(System.lineSeparator());
+
+            files.forEach(f -> sb.append("\t").append("file: ").append(f.name).append(" size: ").append(f.size).append(System.lineSeparator()));
+            directories.forEach(d -> sb.append("\t").append(d.print("\t")));
+
+            return sb.toString();
         }
 
         public String print(String beforeEachLine) {
             StringBuilder sb = new StringBuilder();
             sb.append("dir ").append(this.name).append(" size: ").append(this.getSize()).append(System.lineSeparator());
 
-            files.forEach(f -> sb.append(beforeEachLine).append("\t").append("file: ").append(f.name).append("size: ").append(f.size).append(System.lineSeparator()));
-            directories.forEach(d -> sb.append(beforeEachLine).append("\t").append(d.print()));
+            files.forEach(f -> sb.append(beforeEachLine).append("\t").append("file: ").append(f.name).append(" size: ").append(f.size).append(System.lineSeparator()));
+            directories.forEach(d -> sb.append(beforeEachLine).append("\t").append(d.print(beforeEachLine+"\t")));
 
             return sb.toString();
         }
