@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOC2022.iml" filepath="$PROJECT_DIR$/AOC2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d1/d1.iml" filepath="$PROJECT_DIR$/d1/d1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d2/d2.iml" filepath="$PROJECT_DIR$/d2/d2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d3/d3.iml" filepath="$PROJECT_DIR$/d3/d3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d4/d4.iml" filepath="$PROJECT_DIR$/d4/d4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d5/d5.iml" filepath="$PROJECT_DIR$/d5/d5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d6/d6.iml" filepath="$PROJECT_DIR$/d6/d6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d7/d7.iml" filepath="$PROJECT_DIR$/d7/d7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d8/d8.iml" filepath="$PROJECT_DIR$/d8/d8.iml" />
+    </modules>
+  </component>
+</project>
